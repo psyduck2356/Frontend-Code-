@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "d5114c59-534d-4fc1-af9b-dc10a54ec2ca",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "hashed_password_here",
+      "salt": "salt_here",
+      "role": "admin",
+      "createdAt": "2025-07-19T14:38:30.893Z",
+      "updatedAt": "2025-07-19T14:38:30.894Z"
+    },
+    {
+      "id": "74e1dd80-902d-4d53-9380-479623ffd5e8",
+      "name": "Test User",
+      "email": "user@example.com",
+      "password": "hashed_password_here",
+      "salt": "salt_here",
+      "role": "user",
+      "createdAt": "2025-07-19T14:38:30.894Z",
+      "updatedAt": "2025-07-19T14:38:30.894Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "465b3a80-ed51-4f2a-a373-319e925946cf",
+      "title": "Complete project setup",
+      "description": "Set up the initial project structure and dependencies",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2025-07-26T14:38:30.895Z",
+      "totalTimeSpent": 120,
+      "tags": [
+        "setup",
+        "backend"
+      ],
+      "userId": "74e1dd80-902d-4d53-9380-479623ffd5e8",
+      "createdAt": "2025-07-19T14:38:30.895Z",
+      "updatedAt": "2025-07-19T14:38:30.895Z"
+    },
+    {
+      "id": "682b4c67-e0f2-4435-8fcf-556986884483",
+      "title": "Implement authentication",
+      "description": "Create login and registration functionality",
+      "status": "in_progress",
+      "priority": "high",
+      "dueDate": "2025-07-22T14:38:30.896Z",
+      "totalTimeSpent": 60,
+      "tags": [
+        "auth",
+        "security"
+      ],
+      "userId": "74e1dd80-902d-4d53-9380-479623ffd5e8",
+      "createdAt": "2025-07-19T14:38:30.896Z",
+      "updatedAt": "2025-07-19T14:38:30.896Z"
+    },
+    {
+      "id": "b0a5b4c6-fd2d-46e3-b08a-1355a1d99e4d",
+      "title": "Design database schema",
+      "description": "Create ERD and define relationships between entities",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2025-07-21T14:38:30.897Z",
+      "tags": [
+        "database",
+        "design"
+      ],
+      "userId": "74e1dd80-902d-4d53-9380-479623ffd5e8",
+      "createdAt": "2025-07-19T14:38:30.897Z",
+      "updatedAt": "2025-07-19T14:38:30.897Z"
+    }
+  ]
+}
